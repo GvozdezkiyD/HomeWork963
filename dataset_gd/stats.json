@@ -1,0 +1,23 @@
+{
+  "total_records": 10000,
+  "by_source": {
+    "gd_bill": 5784,
+    "prikaz": 4216
+  },
+  "records_with_critical_errors": 8889,
+  "records_with_any_issues": 9962,
+  "records_clean": 38,
+  "critical_error_rate_pct": 88.9,
+  "splits": {
+    "train": 8000,
+    "val": 1000,
+    "test": 1000
+  },
+  "issue_type_counts": {
+    "error:missing_required_section": 9678,
+    "warning:missing_recommended_section": 10420,
+    "error:missing_required_field": 7112,
+    "warning:missing_recommended_field": 6266,
+    "warning:unknown_section": 1996
+  }
+}
